@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="/=6e+|G4Od[7AvSkG,N#">Player</variable><variable type="KIND_SpriteKind" id="0v~c=*AwK3PPh;j![8{Y">Projectile</variable><variable type="KIND_SpriteKind" id="y^Se/8*A_a~NALj^W^~,">Food</variable><variable type="KIND_SpriteKind" id="+^I/y.(miuZybPgC5,k2">Enemy</variable><variable type="KIND_SpriteKind" id="V%!(0Dh%sZG{fj.;LT2P">StatusBar</variable><variable id="d?zFCHc=mhBX^*h*;G~B">mySprite</variable><variable id="#Ok;y$#A1e-j9qzn1ed4">mySprite2</variable><variable id="%0Xy|*_JxHn^hTL_RzKa">statusbar</variable><variable type="KIND_StatusBarKind" id="}y+[MhD7[BfaOll8RaQh">Health</variable><variable type="KIND_StatusBarKind" id="4e]#tzyh(%md5ML.X;1Q">Energy</variable><variable type="KIND_StatusBarKind" id=")pW2$8/.%jLqsnwJF:m-">Magic</variable><variable type="KIND_StatusBarKind" id="U7b/3%OR)wEiLQi2v{Ka">EnemyHealth</variable></variables><block type="pxt-on-start" id="G?dI=fxI|kwWg}bkG]{8" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="et7viuQ4|-mzLy{eJX,Q"><field name="VAR" id="d?zFCHc=mhBX^*h*;G~B">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="6aFO};lf2jbQmq/ut/PD"><value name="img"><shadow type="screen_image_picker" id="M{*pHBvu:r`^H{jOPq=f"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . f f e e e e f 2 f . . . . 
+. . f f e e e e f 2 2 2 f . . . 
+. . f e e e f f e e e e f . . . 
+. . f f f f e e 2 2 2 2 e f . . 
+. . f e 2 2 2 f f f f e 2 f . . 
+. f f f f f f f e e e f f f . . 
+. f f e 4 4 e b f 4 4 e e f . . 
+. f e e 4 d 4 1 f d d e f . . . 
+. . f e e e e e d d d f . . . . 
+. . . . f 4 d d e 4 e f . . . . 
+. . . . f e d d e 2 2 f . . . . 
+. . . f f f e e f 5 5 f f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . f f . . . f f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"M{*pHBvu:r`^H{jOPq=f"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="LftDJ/x837*xGWu%26BN"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="7G@%|Q,Vx%FC[se;7k-x"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="za_GodZ-}Vnd6Uj9G%P:"><field name="VAR" id="d?zFCHc=mhBX^*h*;G~B">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="03E|}C/fBzT/W-pg*?Dr"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="8WZQE*FB9,n5C/daX6?5"><field name="speed">100</field></shadow></value><next><block type="variables_set" id="HAW=?Wq!Y20]JrU$1|mD"><field name="VAR" id="%0Xy|*_JxHn^hTL_RzKa">statusbar</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="statusbars_create" id="3r;8f2bzK=YD(Q+.z8ea"><value name="width"><shadow type="math_number" id="q#4|~54~(!qCj+KZfNj3"><field name="NUM">20</field></shadow></value><value name="height"><shadow type="math_number" id="C2gYh_u^34lJc65C(?4C"><field name="NUM">4</field></shadow></value><value name="kind"><shadow type="statusbars_kind" id="skUhaXod8wadt`:/-n9-"><field name="MEMBER">Health</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
